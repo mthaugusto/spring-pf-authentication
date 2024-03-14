@@ -1,4 +1,4 @@
-# 🔑🤓👍🏾 Autentica Benezinho
+# 🔑🤓👍🏾 Benezinho Autentico 
 
 |![fiap.jpg](documentacao%2Ffiap.jpg)                | **JAVA ADVANCED** |
 |------------------------------------------|-------------------|
@@ -13,6 +13,8 @@
 [O que deverá ser feito? ](#_O_que_devera_ser_feito)
 
 [Diagrama de Classes ](#_Diagrama_de_Classes)
+
+[Como entregar? ](#_Entrega)
 
 [Correção ](#_Correcao)
 
@@ -117,7 +119,7 @@ atividade.
 
 7. **(0,5 Ponto)** criar um método capaz de consultar um **Usuario** pelo seu email e senha na interface UsuárioRepository;
 
-## No pacote resources criar as seguintes classes
+## No pacote resource criar as seguintes classes
 
 8. **(4,5 Pontos)**  A perfeita criação dos Seguintes Resources no pacote resources:
 
@@ -150,6 +152,16 @@ atividade.
 # Diagrama de Classes
 
 ![classes.png](documentacao%2Fclasses.png)
+
+
+<a id="_Entrega"></a>
+
+# Como entregar?
+
+O aluno deverá postar no TEAMS o zip do projeto. A maneira mais segura de gerar o entregavel é:
+Fazer o commit e push para o github e, em seguida, acessar o projeto no seu github e fazer o download do código zipado.
+
+
 
 <a id="_Correcao"></a>
 
