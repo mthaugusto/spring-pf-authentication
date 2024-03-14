@@ -34,7 +34,7 @@ public class SistemaResource {
     }
 
     @GetMapping(value = "/{id}/responsaveis")
-    public Set<Usuario> gerResponsaveis(@PathVariable Long id) {
+    public Set<Usuario> getResponsaveis(@PathVariable Long id) {
         Sistema sistema = repo.findById( id ).orElseThrow();
         return sistema.getResponsaveis();
     }
