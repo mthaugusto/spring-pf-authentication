@@ -50,7 +50,7 @@ public class SistemaResource {
 
     @Transactional
     @PostMapping(value = "/{id}/responsaveis")
-    public Set<Usuario> addResponsavel(@PathVariable Long id, @RequestBody Usuario responsavel) {
+    public Sistema addResponsavel(@PathVariable Long id, @RequestBody Usuario responsavel) {
 
         if (Objects.isNull( responsavel )) return null;
 
@@ -69,7 +69,7 @@ public class SistemaResource {
 
         //Como confio no JPA e na transação, eu nem dou o comando de salvar o usuário.
         //Eu já mando pegar a listagem de responsáveis do sistema
-        return sistema.getResponsaveis();
+        return sistema;
     }
 
 }
