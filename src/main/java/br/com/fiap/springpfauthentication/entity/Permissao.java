@@ -14,7 +14,11 @@ import lombok.NoArgsConstructor;
 
 
 @Entity
-@Table(name = "TB_PERMISSAO")
+@Table(name = "TB_PERMISSAO", uniqueConstraints = {
+        @UniqueConstraint(
+                name = "UK_NM_PERMISSAO_SISTEMA", columnNames = {"SISTEMA", "NM_PERMISSAO"}
+        )
+})
 public class Permissao {
 
 
